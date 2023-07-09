@@ -1,7 +1,7 @@
-function greet(name: string) {
-  const greeting = document.createElement("h1")
-  greeting.textContent = `Hello ${name}`
-  document.body.appendChild(greeting)
-}
+import { initKeyboard } from "./domains/keyboard";
+import { initToolbar } from "./domains/toolbar";
+import { debug } from "./domains/debug";
 
-greet("Typescript")
+initKeyboard();
+initToolbar();
+debug();

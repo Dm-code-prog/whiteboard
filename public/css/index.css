@@ -1,0 +1,60 @@
+@import url("./debug.css");
+
+@font-face {
+    font-family: 'custom-bold';
+    src: url('/font/font.woff2') format('woff2')
+}
+
+
+body {
+    background: black;
+    overflow: hidden;
+    font-family: 'custom-bold';
+}
+
+canvas {
+    background: black;
+}
+
+#toolbar {
+    /*
+     toolbar styles
+      */
+    position: fixed;
+    top: 40px;
+    background: rgb(36, 36, 36);
+    left: 50%;
+    transform: translateX(-50%);
+    width: 250px;
+    height: 40px;
+    border-radius: 20px;
+
+    /* 
+       inner elements layout 
+    */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 10px;
+    padding: 5px;
+}
+
+
+.tool {
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition: all 0.1s ease-in-out;
+}
+
+@media (hover:hover) {
+    .tool:hover {
+        background-color: rgb(55, 55, 55);
+        cursor: pointer;
+    }
+} 

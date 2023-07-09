@@ -1,5 +1,6 @@
-# Typescript boilerplate for frontend
+# Whiteboard
 
-This is the source code for my Typescript boilerplate tutorial on my website http://www.ronandoherty.com/blog/typescript-boilerplate-for-frontend
+Attempt to create a responsive whiteboard aka Excalidraw or Canva with min. functionality.
 
-It's a quick and dirty Typescript setup with a dev server and debugging in Chrome and Visual Studio Code.
+## Tech stack
+Vanilla TypeScript
